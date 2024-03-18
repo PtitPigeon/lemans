@@ -1,20 +1,29 @@
+.test {
+    color: (#1a344b shadow) (#2b84ad header) (#3d778d footer) (#091217 texte) (#1f5c7a texte);
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3f3fc;
-    color: #1d1d1d;
+    background-color: #eeeefd;
+    color: #091217;
 }
 
 header {
-padding: 10px;
-text-align: right;
+    padding: 10px;
+    text-align: right;
+    position: scroll;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2b84ad;
 }
 
 nav {
     display: flex;
     flex-direction: column;
-    background-color: #284bbe;
+    background-color: #3d778d;
     padding: 10px;
     position: fixed;
     left: 0;
@@ -28,12 +37,18 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #284bbe;
+    color: #0c1841;
     padding: 10px;
     display: block;
     margin: 0 0 10px;
     border-radius: 5px;
-    background-color: #5e8fb8;
+    background-color: #2b6697;
+}
+
+nav img {
+    display: flex;
+    justify-content: center;
+
 }
 
 nav a:hover {
@@ -50,10 +65,17 @@ nav a:hover {
 main {
     padding: 20px;
     margin-left: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 50px;
+    padding: 20px;
+    padding-top: 30px;
+    height: 1000px;
 }
 
 footer {
-    background-color: #223fa0;
+    background-color: #3d778d;
     padding: 10px;
     text-align: center;
     position: fixed;
@@ -66,8 +88,8 @@ footer {
 h1 {
     display: flex;
     justify-content: center;
-    color: #2444d6;
-    text-shadow: 2.5px 2.5px 1px #231c88;
+    color: #1f5c7a;
+    text-shadow: 2.5px 2.5px 1px #1a344b;
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
     margin: auto;
@@ -145,7 +167,7 @@ footer {
 
 .buttonn {
     display: inline-block;
-    background: linear-gradient(#ffe680, #ebe836);
+    background: linear-gradient(#211c68, #092e46);
     color: rgb(133, 133, 133);
     border-radius: 20px;
     padding: 11px 15px;
