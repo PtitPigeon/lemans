@@ -12,11 +12,15 @@ body {
 
 header {
     padding: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
     text-align: right;
     position: scroll;
     top: 0;
     left: 0;
-    width: 100%;
+    width: auto;
     background-color: #2b84ad;
 }
 
@@ -61,6 +65,12 @@ nav a:hover {
     padding: 25px;
     font-weight: 700;
 }
+.buggauche{
+    padding-left: 250px;
+    padding-bottom: 250px;
+    width: auto;
+    height: 500px;
+}
 
 main {
     padding: 20px;
@@ -71,7 +81,7 @@ main {
     margin-top: 50px;
     padding: 20px;
     padding-top: 30px;
-    height: 1000px;
+    height: 559px;
 }
 
 footer {
