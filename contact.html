@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeMans</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="Images/thitiphum-koonjantuek-TFqjlTmkeyY-unsplash.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/LeMansLogobyDesigner.png" type="image/x-icon">
 
 </head>
 
 <body>
     <header>
-        <h1>LeMans</h1>
+        <h1>LeMans/Contact</h1>
         <div> <img src="Images/Sans titre-1.png" alt="" height="385"></div>
     </header>
 
@@ -21,30 +21,31 @@
         <a href="index.html"> |Home</a>
         <a href="schedule.html">|Planning</a>
         <a href="teams.html">|Teams</a>
-        <a href="gallery.html">|Gallery</a>
+        <a href="gallery.html">|Gallerie de photos</a>
         <a href="contact.html">|Contact</a>
     </nav>
     <!--TODO: Texte -->
     <main>
-        <h2>Une course d'endurence </h2>
-        <p>La course de 24 heures du Mans est une compétition de course automobile qui se déroule chaque année en
-            France. <br>Les équipes et les pilotes s'affrontent pour voir qui
-            peut parcourir la plus grande distance en 24 heures.<br> C'est l'une des courses les plus célèbres et les plus
-            prestigieuses au monde.<br> Les voitures de course sont divisées
-            en différentes classes en fonction de leurs spécifications techniques.<br> Les concurrents doivent faire face à
-            divers défis, y compris la fatigue, les conditions
-            météorologiques changeantes et la stratégie de course.<br> La course attire des équipes et des pilotes du monde
-            entier, et gagner au Mans est un honneur convoité dans le
-            monde du sport automobile.
-        </p>
+        <div class="container">
+            <h1>Contactez-nous</h1>
+            <form action="#" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
     </main>
     <!--TODO: Texte -->
     <footer>
 
         <marquee scrollamount="20"><img width="150px" src="Images/Sans titre-2.png" alt="RaceCar"></marquee>
-        <div class="butt2">
-            <a href="EN.html" class="buttonn">EN </a>
-        </div>
     </footer>
 </body>
 
