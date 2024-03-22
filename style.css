@@ -32,6 +32,11 @@ header img {
     text-align: end;
 }
 
+.headerimg {
+    margin-right: 0px;
+    text-align: center;
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -69,9 +74,13 @@ nav a:hover {
     font-size: 30px;
     background-repeat: no-repeat;
     background-size: 212px;
-    color: #284bbe;
+    /* color: #284bbe;*/
     padding: 25px;
     font-weight: 700;
+    background: #090000;
+    color: #284bbe;
+    font-family: Londrina Outline;
+    text-shadow: 0 0 10px #6878ac, 0 0 20px#284bbe, 0 0 40px rgb(67, 59, 146), 0 0 80px rgb(68, 0, 255);
 }
 
 .buggauche {
@@ -239,4 +248,26 @@ button {
 
 button:hover {
     background-color: #365a6b;
+}
+
+.grid-paysages {
+    display: grid;
+    width: 450px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+}
+
+.grid-portraits {
+    display: grid;
+    width: 450px;
+}
+
+.grid-all {
+    /*display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    grid-template-rows: 1fr 2fr 1fr;*/
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    justify-items: center;
 }
