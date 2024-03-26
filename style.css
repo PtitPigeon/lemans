@@ -89,6 +89,12 @@ nav a:hover {
     width: auto;
     height: 500px;
 }
+.mainheight{
+    height: 700px;
+    overflow-y: hidden;
+}
+
+
 
 main {
     padding: 30px;
@@ -254,12 +260,19 @@ button:hover {
     display: grid;
     width: 450px;
     grid-template-rows: 100px 100px 100px;
-    gap: 10px;
+    padding-left: 0px;
+    padding: 7px;
+    margin: 7px;
+    gap: 14px;
 }
 
 .grid-portraits {
     display: grid;
     width: 450px;
+    padding-left: 0px;
+    padding: 7px;
+    margin: 7px;
+    gap: 14px;
 }
 
 .grid-all {
@@ -269,5 +282,7 @@ button:hover {
     grid-template-rows: 1fr 2fr 1fr;*/
     display: grid;
     grid-template-columns: 2fr 4fr 2fr;
+    padding-left: 0px;
     justify-items: center;
+    gap: 5px;
 }
